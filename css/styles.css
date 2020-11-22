@@ -1,1 +1,98 @@
+#header-nav{
+	background-color: #A9A9A9;
+	border: 2px solid black;
+}
+.navbar-brand{
+	font-size:22px;
+	font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
 
+
+#bs-example-navbar-collapse-1{
+	margin-top:-15px;
+	
+}
+/*#bs-example-navbar-collapse-1 #list-menu #blk{
+	color:#A9A9A9;
+}*/
+#blk{
+	color:black;
+}
+#section1{
+position: relative;
+background-color: #A9A9A9;
+/*height: 1000px;*/
+padding: 10px;
+ overflow: hidden;
+ min-height: 100vh;
+}
+#section2{
+position: relative;
+background-color: #A9A9A9;
+/*height: 1000px;*/
+padding: 10px;
+ overflow: hidden;
+ min-height: 100vh;
+}
+#section3{
+position: relative;
+background-color: #A9A9A9;
+/*height: 1000px;*/
+padding: 10px;
+ overflow: hidden;
+ min-height: 100vh;
+}
+#title{
+	font-size: 20px;
+	width: 30%;
+	text-align: center;
+	font-weight: bold;
+	
+	top:0;
+	right:35%;
+	left:35%;
+
+	bottom: 10px;
+	margin-bottom: 10px;
+	
+	position: absolute;
+}
+p{
+	padding: 10px;
+	margin-top: 10px;
+}
+#list-menu{
+	width: 100%;
+	height: auto;
+	
+	border-bottom: 1px solid black;*/
+	 color: black;
+	overflow: hidden;
+	
+
+}	
+
+/*** Large devices only ***/
+
+
+/*** Neduim devices only ***/
+@media(min-width: 992px) and (max-width: 1199px){
+	}
+	.col-md-4{
+		padding: 10px;
+	}
+	/*88 Small devices only ***/
+@media(min-width: 768px) and (max-width: 991px){
+
+.col-sm-12 .col-xs-12{
+	padding: 10px;
+}
+}
+@media(max-width: 767px){
+	.col-xs-12{
+	padding: 10px;
+}
+	}
